@@ -1,0 +1,51 @@
+* {
+border: 0;
+margin:0;
+}
+
+@font-face {
+    font-family: 'soriasoria';
+    src: url('soria-font-webfont.eot');
+    src: url('soria-font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('soria-font-webfont.woff2') format('woff2'),
+         url('soria-font-webfont.woff') format('woff'),
+         url('soria-font-webfont.ttf') format('truetype'),
+         url('soria-font-webfont.svg#soriasoria') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    .body {
+        font-family: 'soriasoria';
+
+    }
+
+h1 {
+        font-size: 12vh;
+        font-weight: bolder;
+        text-align: center;
+        background-color: #2a2a2a;
+        color: whitesmoke;
+    }
+
+.haiku {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zX3dhdGVyY29sb3JfaWxsdXN0cmF0aW9uX29mX2dyZWVuX3Bhc3RlbF9iYWNrZ18wM2M3ODBjOS1lNWY3LTQwMjktODE4Mi0zZWQyNjY5Mjg3ZWYuanBn.jpg);
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+        min-height: 100vh;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }   
+
+p {
+    display: flex;
+        font-size: 6vh;
+        font-weight: bolder;
+        text-align: center;
+        font-variant-ligatures: normal;
+        color: #00644c;
+
+    }
