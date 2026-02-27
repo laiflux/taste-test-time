@@ -1,8 +1,7 @@
 * {
 border: 0;
-margin:0;
+margin: 0;
 }
-
 
 @font-face {
     font-family: 'soriasoria';
@@ -20,7 +19,6 @@ body {
 
 h1 {
         font-size: 12vh;
-        font-weight: bolder;
         text-align: center;
         background-color: #2a2a2a;
         color: whitesmoke;
@@ -41,7 +39,6 @@ h1 {
 p {
     display: flex;
         font-size: 6vh;
-        font-weight: bolder;
         text-align: center;
         font-variant-ligatures: normal;
         color: #00644c;
