@@ -18,21 +18,21 @@ tttEl.addEventListener("click", (e) => {
 bg.addEventListener('click', () => {
     clickCount++
 
-   if (clickCount === 1) {
-    p1.style.fontSize="12vh"; 
-   } else if (clickCount === 2) {
-    p2.style.fontSize="12vh";
-    p1.style.fontSize="6vh";
-    p3.style.fontSize="6vh";
-   } else if (clickCount === 3) {
-    p3.style.fontSize="12vh";
-    p1.style.fontSize="6vh";
-    p2.style.fontSize="6vh";
-   } else if (clickCount === 4) {
-    p1.style.fontSize="6vh";
-    p2.style.fontSize="6vh";
-    p3.style.fontSize="6vh";
+   p1.className = "";
+   p2.className = "";
+   p3.className = "";
 
+   if (clickCount === 1) {
+    p1.classList.add('large'); 
+   } else if (clickCount === 2) {
+    p2.classList.add('large');
+    p1.classList.remove('large');
+   } else if (clickCount === 3) {
+    p3.classList.add('large');
+    p2.classList.remove('large');
+   } else if (clickCount === 4) {
+    p3.classList.remove('large')
+    
     clickCount = 0
    }
 });
