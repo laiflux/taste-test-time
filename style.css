@@ -49,7 +49,7 @@ p.large {
     font-size: 12vh;
 }   
 
-@media (min-width: 421px) and (max-width: 768px) {
+@media (min-width: 421px) and (max-width: 1000px) {
 h1 {
     font-size: 6vh;
 }
